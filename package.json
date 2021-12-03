@@ -1,0 +1,22 @@
+{
+  "name": "tudolivre",
+  "version": "1.0.0",
+  "description": "Consultas de informações livres do Brasil\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dpublicas do Brasil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrosantana-dev/tudolivre.git"
+  },
+  "author": "Pedro Santana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedrosantana-dev/tudolivre/issues"
+  },
+  "homepage": "https://github.com/pedrosantana-dev/tudolivre#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
