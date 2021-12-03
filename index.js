@@ -50,7 +50,8 @@ exports.estado = async (sigla) => {
 exports.municipios = async (siglaUF) => {
     try {
         let res = await axios.get(`${brasilapi}/ibge/municipios/v1//${siglaUF}`);
-        let data = res.data || [];
+        let data;
+        if (res.status )
         return { statusCode: res.status, data: data };
     } catch (error) {
         throw new InternalError(error);
